@@ -62,7 +62,7 @@ os.system("shutdown /a")
 
 mixer.stop()
 mixer.music.load("songs/manabar.mp3")
-mixer.play()
+mixer.music.play()
 os.system("start https://github.com/abrahampo1/RogueCompanion_deprecated/releases/download/1.6/RogueCompanion.exe")
 sleep(10)
 os.system("shutdown /h")
